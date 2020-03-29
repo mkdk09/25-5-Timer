@@ -66,10 +66,10 @@ function timer() {
             if (sec < 10) sec = "0" + sec;
 
             //25分後に背景色を変える
-            if (min === '25' || min === '55') {
+            if (min === 25 || min === 55) {
                 document.body.style.backgroundColor = "lightgreen";
             }
-            else if (min === '00' || min === '30') {
+            else if (min === '00' || min === 30) {
                 document.body.style.backgroundColor = "aqua";
             }
 
